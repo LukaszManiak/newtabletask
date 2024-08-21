@@ -1,6 +1,6 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
-// import GlobalStyles from "./styles/GlobalStyles";
+import GlobalStyles from "./styles/GlobalStyles";
 import Tables from "./pages/Tables";
 import Login from "./pages/Login";
 import PageNotFound from "./pages/PageNotFound";
@@ -9,7 +9,7 @@ import AppLayout from "./ui/AppLayout";
 function App() {
   return (
     <>
-      {/* <GlobalStyles /> */}
+      <GlobalStyles />
       <BrowserRouter>
         <Routes>
           <Route element={<AppLayout />}>
