@@ -6,7 +6,7 @@ const StyledModeToggle = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  width: 100%;
   font-size: 1.4rem;
   padding: 1.2rem 1.6rem;
   font-weight: 500;
