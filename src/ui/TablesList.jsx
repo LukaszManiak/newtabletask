@@ -10,10 +10,17 @@ const StyledTablesList = styled.div`
   font-weight: 500;
 `;
 
+const ListTitle = styled.p`
+  font-size: 1.6rem;
+  letter-spacing: 0.3rem;
+  padding: 0;
+  margin: 0;
+`;
+
 function TablesList() {
   return (
     <StyledTablesList>
-      <p>ALL TABLES (3)</p>
+      <ListTitle>ALL TABLES (3)</ListTitle>
     </StyledTablesList>
   );
 }

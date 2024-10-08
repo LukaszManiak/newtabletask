@@ -8,29 +8,48 @@ const StyledModeToggle = styled.div`
   align-items: center;
   width: 100%;
   font-size: 1.4rem;
-  padding: 1.2rem 1.6rem;
+  padding: 0.8rem 1.2rem;
   font-weight: 500;
 
   background-color: var(--color-text);
   border-radius: var(--border-radius-lg);
 `;
 
-const ButtonIcon = styled.button`
-  background: none;
-  border: none;
-  padding: 0.6rem;
-  border-radius: var(--border-radius-sm);
-  transition: all 0.2s;
+const Icon = styled.div`
+  color: var(--color-bg);
+  padding-top: 10px;
+  font-size: 26px;
+`;
 
-  &:hover {
-    background-color: var(--color-bg);
-  }
+const ToggleWrapper = styled.label`
+  position: relative;
+  width: 60px;
+  height: 30px;
+  background-color: var(--color-primary);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+`;
 
-  & svg {
-    width: 2.2rem;
-    height: 2.2rem;
-    color: var(--color-bg);
+const ToggleInput = styled.input`
+  opacity: 0;
+  width: 0;
+  height: 0;
+
+  &:checked + div {
+    transform: translateX(30px);
   }
+`;
+
+const ToggleSlider = styled.div`
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
 `;
 
 function DarkModeToggle() {
@@ -38,10 +57,14 @@ function DarkModeToggle() {
 
   return (
     <StyledModeToggle>
-      <ButtonIcon>
+      <Icon isDarkMode={isDarkMode}>
         {isDarkMode ? <HiOutlineSun /> : <HiOutlineMoon />}
-      </ButtonIcon>
-      <input onClick={toggleDarkMode} type="checkbox"></input>
+      </Icon>
+
+      <ToggleWrapper>
+        <ToggleInput type="checkbox" onChange={toggleDarkMode} />
+        <ToggleSlider />
+      </ToggleWrapper>
     </StyledModeToggle>
   );
 }
