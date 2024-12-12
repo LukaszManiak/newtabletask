@@ -66,7 +66,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  color: var(--color-text);
+  color: var(--color-bg);
     background-color:var(--color-text) ;
   transition: color 0.3s, background-color 0.3s;
   min-height: 100vh;

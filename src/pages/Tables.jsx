@@ -1,5 +1,14 @@
+import Footer from "../ui/Footer";
+import Header from "./../ui/Header";
+
 function Tables() {
-  return <div>tasks</div>;
+  return (
+    <>
+      <Header />
+      <div>tasks</div>
+      <Footer />
+    </>
+  );
 }
 
 export default Tables;
