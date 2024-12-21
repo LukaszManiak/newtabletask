@@ -4,10 +4,10 @@ const GlobalStyles = createGlobalStyle`
 :root {
    &, &.light-mode{
   --color-text: #FBFADF;
-  --color-bg: #0D0D02;
-  --color-primary: #D4C81C;
-  --color-secondary: #114788;
-  --color-accent: #4B15A2;
+  --color-bg:  #0D0D02;
+  --color-primary: #E3D72B;
+  --color-secondary: #9C9400;
+  --color-accent: #5B4D00;
 
   --backdrop-color: rgba(255, 255, 255, 0.1);
 
@@ -21,11 +21,11 @@ const GlobalStyles = createGlobalStyle`
     }
 
   &.dark-mode{
-    --color-text: #201F04;
-  --color-bg: #FDFDF2;
+    --color-text: #141407
+  --color-bg: #F4F4DC;
   --color-primary: #E3D72B;
-  --color-secondary: #77ADEE;
-  --color-accent: #935DEA;
+  --color-secondary: #A69700;
+  --color-accent: #7A6A00;
 
   --backdrop-color: rgba(255, 255, 255, 0.1);
 
