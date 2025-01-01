@@ -47,7 +47,7 @@ const ToggleSlider = styled.div`
   left: 4px;
   width: 22px;
   height: 22px;
-  background-color: white;
+  background-color: var(--color-bg);
   border-radius: 50%;
   transition: transform 0.3s ease;
 `;

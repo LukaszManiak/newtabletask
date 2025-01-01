@@ -3,9 +3,7 @@ import logoLight from "../images/logoHeader.svg";
 import logoDark from "../images/logoHeaderDark.svg";
 import { useDarkMode } from "../contexts/DarkModeContext";
 
-const StyledLogo = styled.div`
-  text-align: center;
-`;
+const StyledLogo = styled.div``;
 
 const Img = styled.img`
   height: 9.6rem;

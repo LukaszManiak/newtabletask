@@ -21,8 +21,8 @@ const GlobalStyles = createGlobalStyle`
     }
 
   &.dark-mode{
-    --color-text: #141407
-  --color-bg: #F4F4DC;
+    --color-text: #0D0D02;
+  --color-bg: #FBFADF;
   --color-primary: #E3D72B;
   --color-secondary: #A69700;
   --color-accent: #7A6A00;

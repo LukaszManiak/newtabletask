@@ -18,7 +18,7 @@ function Header() {
   return (
     <StyledHeader>
       <H>Platform Launch</H>
-      <Button variation="accent" size="medium">
+      <Button variation="secondary" size="medium">
         Add new task+
       </Button>
     </StyledHeader>

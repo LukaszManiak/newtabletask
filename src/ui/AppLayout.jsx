@@ -1,10 +1,11 @@
 import { Outlet } from "react-router-dom";
 import Sidebar from "./SideBar";
 import styled from "styled-components";
+import Notes from "./Notes";
 
 const StyledAppLayout = styled.div`
   display: grid;
-  grid-template-columns: 36rem 1fr;
+  grid-template-columns: 30rem 38rem 1fr;
   grid-template-rows: auto 1fr;
   height: 100vh;
 `;
@@ -18,6 +19,7 @@ function AppLayout() {
   return (
     <StyledAppLayout>
       <Sidebar />
+      <Notes />
       <Main>
         <Outlet />
       </Main>
