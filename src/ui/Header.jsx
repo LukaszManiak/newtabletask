@@ -4,7 +4,6 @@ import Button from "./Button";
 const StyledHeader = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 2.4rem;
 `;
 
 const H = styled.h2`

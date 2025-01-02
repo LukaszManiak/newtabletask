@@ -8,7 +8,6 @@ const StyledMainNav = styled.div`
   height: 100%;
   justify-content: space-between;
   gap: 0.4rem;
-  align-items: center;
 
   font-size: 1.4rem;
   padding: 1.2rem 1.6rem;

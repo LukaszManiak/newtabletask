@@ -5,9 +5,9 @@ const GlobalStyles = createGlobalStyle`
    &, &.light-mode{
   --color-text: #FBFADF;
   --color-bg:  #0D0D02;
-  --color-primary: #E3D72B;
-  --color-secondary: #9C9400;
-  --color-accent: #5B4D00;
+  --color-accent: #E3D72B;
+  --color-primary: #9C9400;
+ 
 
   --backdrop-color: rgba(255, 255, 255, 0.1);
 
@@ -23,9 +23,9 @@ const GlobalStyles = createGlobalStyle`
   &.dark-mode{
     --color-text: #0D0D02;
   --color-bg: #FBFADF;
-  --color-primary: #E3D72B;
-  --color-secondary: #A69700;
-  --color-accent: #7A6A00;
+  --color-accent: #E3D72B;
+  --color-primary: #A69700;
+  
 
   --backdrop-color: rgba(255, 255, 255, 0.1);
 

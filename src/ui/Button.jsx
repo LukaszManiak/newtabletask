@@ -32,7 +32,6 @@ const variations = {
   secondary: css`
     color: var(--color-text);
     background: var(--color-bg);
-    border: 1px solid var(--color-secondary);
 
     &:hover {
       opacity: 0.8;

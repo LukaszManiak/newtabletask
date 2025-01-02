@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StyledTablesList = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
   width: 100%;
   font-size: 1.4rem;
   padding: 1.2rem 1.6rem;
@@ -11,6 +11,7 @@ const StyledTablesList = styled.div`
 `;
 
 const ListTitle = styled.p`
+  color: var(--color-text);
   font-size: 1.6rem;
   letter-spacing: 0.3rem;
   padding: 0;
